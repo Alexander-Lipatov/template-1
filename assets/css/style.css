@@ -204,7 +204,7 @@ header {
     display: flex;
 }
 
-.supporting-company>.wrapper{
+.supporting-company>.wrapper {
     width: 1140px;
 }
 
@@ -435,7 +435,135 @@ header {
     -webkit-user-drag: none;
 }
 
-.desc-content{
+.desc-content {
     top: 0;
     position: absolute;
+    width: 580px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 10%;
+
+}
+
+.desc-content>span {
+    color: #F3B705;
+    font-family: "Dosis";
+    opacity: 0.5;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.desc-content>p {
+    text-align: center;
+    width: 390px;
+    font-size: 15px;
+    font-family: "Mukta";
+    line-height: 172.682%;
+    /* 25.902px */
+    letter-spacing: 0.675px;
+}
+
+
+.desc-content>h2 {
+    color: #264A51;
+    font-family: "Dosis";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a.link-btn {
+    margin-top: 24px;
+    border-radius: 3px;
+    border: 2px solid #264A51;
+    padding: 8px 19px;
+}
+
+.preview-items {
+    margin-block: 115px;
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+}
+
+.right-lable {
+    width: auto;
+}
+
+div.image-block {
+    position: relative;
+}
+
+div.image-block>span {
+    color: white;
+}
+
+
+div>span.right-lable {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 150px;
+    background-color: rgba(113, 179, 198, 0.85);
+    bottom: 60px;
+    right: -65px;
+    z-index: 1;
+}
+
+div>span.left-lable {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 150px;
+    background-color: rgba(113, 179, 198, 0.85);
+    bottom: 60px;
+    left: -65px;
+    z-index: 1;
+}
+
+
+div.left-lable {
+    position: relative;
+}
+
+div.left-lable::before {
+    position: absolute;
+}
+
+.living-room,
+.dinning-table,
+.bed,
+.kitchen {
+    display: flex;
+    gap: 65px;
+}
+
+div.content-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.content-block>h2 {
+    font-family: "Dosis";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.5%;
+    letter-spacing: 1.755px;
+}
+
+div.content-block>p {
+    font-size: 15px;
+    font-family: "Mukta";
+    text-align: center;
 }
